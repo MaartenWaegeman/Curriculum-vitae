@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Exo';
+    font-weight: normal;
+    src: url(../fonts/Exo-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: 'Exo';
+    font-weight: bold;
+    src: url(../fonts/Exo-Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: 'Exo';
+    font-weight: 900;
+    src: url(../fonts/Exo-ExtraBold.otf) format("opentype");
+}
+@font-face {
+    font-family: 'Exo';
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/Exo-Italic.otf) format("opentype");
+}
+@font-face {
+    font-family: 'Exo';
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/Exo-BoldItalic.otf) format("opentype");
+}
+@font-face {
+    font-family: 'Exo';
+    font-weight: 100;
+    src: url(../fonts/Exo-ExtraLight.otf) format("opentype");
+}
+@font-face {
+    font-family: 'Exo';
+    font-weight: 100;
+    font-style: italic;
+    src: url(../fonts/Exo-LightItalic.otf) format("opentype");
+}

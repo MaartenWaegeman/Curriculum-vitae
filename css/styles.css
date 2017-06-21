@@ -1,0 +1,272 @@
+/* ==========================================================================
+   # Generic
+   ========================================================================== */
+
+/* Custom Reset
+   ========================================================================== */
+
+/**
+ * Set the default box-sizing to border-box
+ */
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/**
+ * Generic margin and padding reset to start from a clean slate
+ */
+
+body,h1,h2,h3,h4,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ==========================================================================
+   # Elements
+   ========================================================================== */
+
+/* Page
+   ========================================================================== */
+
+@page{
+    margin: 0;
+
+    size: A4;
+}
+
+html{
+    font-size: 12px;
+}
+
+/**
+ * Fixed height helps against extra border when converting to PDF
+ */
+
+body{
+    font-family: 'Exo';
+    font-size: 1rem;
+
+    height: 297mm;
+
+    color: #999;
+}
+
+
+/* Headers
+   ========================================================================== */
+
+h1,h2,h3{
+    color: #025d89;
+}
+h4{
+    color: #1c1c1c;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 100;
+}
+h2{
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 900;
+
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 1.5rem;
+
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+h3:after
+{
+    position: absolute;
+
+    width: 100%;
+    height: 50%;
+    margin-left: .5rem;
+
+    content: '';
+
+    border-bottom: 2px solid #cbcbcb;
+}
+
+h4{
+    font-size: 1rem;
+
+    margin-bottom: .5rem;
+
+    text-transform: uppercase;
+}
+
+
+/* Images
+   ========================================================================== */
+
+img{
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+
+    border-radius: 50%;
+}
+
+
+/* Icons
+   ========================================================================== */
+
+i{
+    margin-right: .5rem;
+
+    text-align: center;
+
+    color: white;
+    border-radius: 50%;
+    background-color: #025d89;
+}
+
+
+/* List
+   ========================================================================== */
+ul{
+    padding: 0 0 0 1.5rem;
+}
+
+/* Paragraph
+   ========================================================================== */
+
+p{
+    overflow: hidden;
+
+    margin-bottom: 1rem;
+}
+
+
+/* ==========================================================================
+   #Components
+   ========================================================================== */
+
+/**
+ * Main part
+ */
+
+.mainpiece{
+    position: relative;
+
+    float: left;
+    overflow: hidden;
+
+    width: 65%;
+    height: 100%;
+    padding: 12mm 3rem 12mm 3rem;
+
+    background-color: white;
+}
+
+/**
+ * Side part
+ */
+.sidepiece{
+    position: relative;
+
+    float: left;
+    overflow: hidden;
+
+    width: 35%;
+    height: 100%;
+    padding: 12mm 3rem 12mm 3rem;
+
+    color: #969696;
+    background-color: #ededed;
+}
+
+/* ==========================================================================
+   #Utilities
+   ========================================================================== */
+
+/**
+ * Helperclass to mimic the styling of a p tag on a div
+ */
+
+.paragraph{
+    overflow: hidden;
+
+    margin-bottom: 1rem;
+}
+
+/**
+ * Helperclass to set extra bottommargin
+ */
+
+.extramargin{
+    margin-bottom: 1.5rem;
+}
+
+/* Triumphs
+   ========================================================================== */
+/**
+ * Set the subtitle to pop out
+ */
+
+.subheadline{
+    font-size: 1.5rem;
+    font-weight: normal;
+
+    color: #cbcbcb;
+}
+
+/**
+ * Span to have the workplace / studyplace pop out extra
+ */
+
+.place{
+    font-weight: normal;
+
+    color: #cbcbcb;
+}
+
+.technologies{
+    font-size: .7rem;
+    font-weight: lighter;
+    font-style: italic;
+
+    float: right;
+
+    width: 100%;
+    padding-top: .5rem;
+
+    text-align: right;
+}
+
+.personaldetails
+{
+    font-size: .8rem;
+}
+
+
+/**
+ * Override Fontawesome defaults to set different hights for icons
+ */
+
+.mainpiece .fa{
+    line-height: 2.4rem;
+
+    width: 2.4rem;
+}
+.sidepiece .fa{
+    line-height: 1.4rem;
+
+    width: 1.4rem;
+}
