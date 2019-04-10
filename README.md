@@ -7,7 +7,7 @@ I wished more than once that I was as good with Word as with HTML and CSS. When 
 In this repository you can find the styles and the HTML document I use to generate my CV in PDF format.
 
 # Tool
-To convert my cv from an HTML to a PDF file I use Prince 11. You can purchase it at https://www.princexml.com (a trial version with watermark is also available).
+To convert my cv from an HTML to a PDF file I use Snappy (https://github.com/KnpLabs/snappy), a PHP wrapper for [wkhtmltopdf and wkhtmltoimage](http://wkhtmltopdf.org/) to generate a PDF from a url or a html page.
 
 ## Copyright
 Despite being open sourced, all the code and content remain copyright of Maarten Waegeman.

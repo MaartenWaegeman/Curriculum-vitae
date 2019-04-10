@@ -41,7 +41,7 @@ body,h1,h2,h3,h4,p,ul,li{
 }
 
 html{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /**
@@ -52,9 +52,10 @@ body{
     font-family: 'Exo';
     font-size: 1rem;
 
-    height: 297mm;
+    /*height: 297mm;*/
 
-    color: #999;
+    /*color: #999;*/
+    color:#1c1c1c;
 }
 
 
@@ -63,9 +64,6 @@ body{
 
 h1,h2,h3{
     color: #025d89;
-}
-h4{
-    color: #1c1c1c;
 }
 
 h1{
@@ -152,6 +150,11 @@ p{
 
     margin-bottom: 1rem;
 }
+/* Links
+   ========================================================================== */
+a{
+    color: #1c1c1c;
+}
 
 
 /* ==========================================================================
@@ -188,7 +191,8 @@ p{
     height: 100%;
     padding: 12mm 3rem 12mm 3rem;
 
-    color: #969696;
+    /*color: #969696;*/
+    color:#1c1c1c;
     background-color: #ededed;
 }
 
@@ -224,7 +228,7 @@ p{
     font-size: 1.5rem;
     font-weight: normal;
 
-    color: #cbcbcb;
+    color: #999;
 }
 
 /**
@@ -234,11 +238,13 @@ p{
 .place{
     font-weight: normal;
 
-    color: #cbcbcb;
+    /*color: #cbcbcb;*/
+    color: #999;
+    font-style: italic;
 }
 
 .technologies{
-    font-size: .7rem;
+    font-size: .6rem;
     font-weight: lighter;
     font-style: italic;
 
@@ -248,6 +254,7 @@ p{
     padding-top: .5rem;
 
     text-align: right;
+    /*display: none;*/
 }
 
 .personaldetails
@@ -269,4 +276,10 @@ p{
     line-height: 1.4rem;
 
     width: 1.4rem;
+}
+
+i.plain{
+    border-radius: 0%;
+    color:#1c1c1c;
+    background-color:initial;
 }
